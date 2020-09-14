@@ -7,46 +7,29 @@
 	<link rel="stylesheet" type="text/css" href="css/slick.css">
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-	<header>
-		<div class="header-overall">
-			<div class="header-top">
-				<div class="container-fluid">
-					<div class="topnav">
-						<div class="nav-img">
-							<a href=""><img src="img/logo.png"></a>
-						</div>
-						<div class="nav-item">
-							<div class="sign">
-								<div class="login"><a href="">Login</a>  </div>
-								<div class="register"><a href="">Register an account</a></div>
-							</div>
-		                    <div class="shopping-cart">
-		                    	<img src="img/cart.png">Shopping cart <span>(0)</span>
-		                    </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="header-bottom">
-				<div class="container-fluid none">
-		            <nav id="navbarMenu">
-		              <div class="toggleMenu">
-		              	<div class="nav-img">
-								<img src="img/logo.png">
-							</div>
-						</div>
-		              <!-- <div id="brand">COMPANY</div> -->
-		                <ul>
+</body>
+
+	<header class="mobile-header">
+		<div class="mobile-left">
+			<div class="mobile-bar" id="mobile-bar"><img src="img/menu.png"></div>
+			<div class="mobile-menu" id="mobile-menu">
+				<div class="menu-open">
+					<div class="close-menu" id="close-menu">
+		                <img src="img/close.png" alt="">
+		            </div>
+		            <div class="menu-list">
+						<ul>
 		                    <li><a href="#">Home</a>
 		                    </li>
 		                    <li><a href="#">Food</a>
 		                    </li>
-		                    <li class="submenu"><a href="#">Beauty</a>
+		                    <li><a href="#">Beauty</a>
 		                    </li>
-		                    <li class="submenu"><a href="#">Women </a>
+		                    <li><a href="#">Women </a>
 		                    </li>
 		                    <li><a href="#">Men</a></li>
 		                    <li><a href="#">Children</a></li>
@@ -56,74 +39,61 @@
 		                    <li><a href="#">Sports</a></li>
 		                    <li><a href="#">Mid Autumn Festival 2020</a></li>
 		                </ul>
-		            </nav>
-	        	</div>
-	    	</div>
-	    	<div class="header-last">
-	    		<div class="container-fluid">
-	    			<div class="header-down">
-			    		<div class="header-text">
-			    			<ul>
-			    				<li><a href="">Craziest Toy Sale 2020</a></li>
-			    				<li><a href="">Promotions</a></li>
-			    				<li><a href="">Contact Us</a></li>
-			    			</ul>
-			    		</div>
-			    		<div class="header-slink">
-			    			<div class="facebook"><a href=""><i class="fab fa-facebook-f"></i></a></div>
-			    			<div class="insta"><a href=""><i class="fab fa-instagram"></i></a></div>
-			    			<div class="main-site"><a href="">Main Site</a></div>
-			    		</div>
-			    	</div>
-		    	</div>
-	    	</div>
-	    </div>
+		            </div>
+	            </div>
+			</div>
+		</div>
+		<div class="mobile-middle">
+			<a href=""><img src="img/tlogo.png"></a>
+		</div>
+		<div class="mobile-right">
+        	<img src="img/cart.png"><span>(0)</span>
+		</div>
 	</header>
 
 	<section class="banner-slider">
 		<div class="Modern-Slider">
-			    <div class="img-fill">
-			      <img src="img/banner.png" alt="">
-			      <div class="info">
+		    <div class="img-fill">
+			    <img src="img/mobile-banner.png" alt="">
+			    <!-- <div class="info">
 			        <div>
 			          <img src="img/27.png">
 			          <p>8 - 18 Oct</p>
 			        </div>
-			      </div>
-			    </div>
-			    <div class="img-fill">
-			      <img src="img/banner.png" alt="">
-			      <div class="info">
+			    </div> -->
+		    </div>
+		    <div class="img-fill">
+		      	<img src="img/mobile-banner.png" alt="">
+		      	<!-- <div class="info">
 			        <div>
 			          <img src="img/27.png">
 			          <p>8 - 18 Oct</p>
 			        </div>
-			      </div>
-			    </div>
-			  <!-- // Item -->
-			    <div class="img-fill">
-			      <img src="img/banner.png" alt="">
-			      <div class="info">
+		      	</div> -->
+		    </div>
+		  <!-- // Item -->
+		    <div class="img-fill">
+		      	<img src="img/mobile-banner.png" alt="">
+		      	<!-- <div class="info">
 			        <div>
 			          <img src="img/27.png">
 			          <p>8 - 18 Oct</p>
 			        </div>
-			      </div>
-			    </div>
-			</div>
+		      	</div> -->
+		    </div>
+		</div>
 	</section>
-
-	<section class="banner-block">
-		<section class="banner-text">
-			<div class="container">
+	<section class="banner-block-mobile">
+		<section class="banner-mobile-text">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<div class="banner-text-img">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+						<div class="banner-text-img-mobile">
 							<img src="img/story.png">
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<div class="banner-text-content">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
+						<div class="banner-text-content-mobile">
 							<p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. </p>
 						</div>
 					</div>
@@ -131,41 +101,44 @@
 			</div>
 		</section>
 	</section>
+
 	<section class="bg-blue" id="blue">
 		<div class="side-ribbon">
-			<div class="img1"><img src="img/left-deco.png"></div>
-			<div class="img2"><img src="img/right-deco.png"></div>
-			<div class="img3"><img src="img/left-deco1.png"></div>
-			<div class="img4"><img src="img/right-deco1.png"></div>
+			<div class="img1"><img src="img/v1.png"></div>
+			<div class="img2"><img src="img/v2.png"></div>
+			<div class="img3"><img src="img/v3.png"></div>
+			<div class="img4"><img src="img/v4.png"></div>
+			<div class="imgt"><img src="img/t1.png"></div>
+			<div class="imgr"><img src="img/t2.png"></div>
 		</div>
 		<div class="container-fluid">
 			<div class="feature-block">
 				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<div class="feature-box">
+							<div class="feature-box-img"><img src="img/oven.png"></div>
+							<p>Online</p>
+							<p>Exclusives</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 						<div class="feature-box">
 							<div class="feature-box-img"><img src="img/like.png"></div>
 							<p>270</p>
 							<p>Best Buys</p>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 						<div class="feature-box">
 							<div class="feature-box-img"><img src="img/schedule.png"></div>
 							<p>Anniversary</p>
 							<p>Higlights</p>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 						<div class="feature-box">
 							<div class="feature-box-img"><img src="img/lipstick.png"></div>
 							<p>Cosmetics</p>
-							<p>Anniversary Deals</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="feature-box">
-							<div class="feature-box-img"><img src="img/oven.png"></div>
-							<p>Household & Interior</p>
 							<p>Anniversary Deals</p>
 						</div>
 					</div>
@@ -173,7 +146,7 @@
 			</div>
 			<div class="best-buy-block">
 				<div class="best-buy-item">
-					<div class="best-text"><p>270 Best Buys</p><img src="img/l.png"></div>
+					<div class="best-text"><p>Online Exclusive</p><img src="img/online-shop.png"></div>
 					<div class="best-filter">
 						<ul class="nav nav-tabs">
 					        <li class="active"><a data-toggle="tab" href="#view" class="blue-border">View Online Catalogue</a></li>
@@ -185,7 +158,7 @@
         			<div id="view" class="tab-pane fade in active">
 						<div class="best-img">
 							<div class="row">
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fuller">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b1.png"></div>
 										<div class="best-img-all">
@@ -199,7 +172,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b2.png"></div>
 										<div class="best-img-all">
@@ -213,7 +186,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b3.png"></div>
 										<div class="best-img-all">
@@ -227,7 +200,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b4.png"></div>
 										<div class="best-img-all">
@@ -241,7 +214,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b5.png"></div>
 										<div class="best-img-all">
@@ -255,7 +228,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b6.png"></div>
 										<div class="best-img-all">
@@ -269,7 +242,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b7.png"></div>
 										<div class="best-img-all">
@@ -283,119 +256,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b8.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b9.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b10.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b11.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b12.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b5.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b6.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b7.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b8.png"></div>
 										<div class="best-img-all">
@@ -415,7 +276,7 @@
 					<div id="all" class="tab-pane fade">
 						<div class="best-img">
 							<div class="row">
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b1.png"></div>
 										<div class="best-img-all">
@@ -429,7 +290,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b2.png"></div>
 										<div class="best-img-all">
@@ -443,7 +304,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b3.png"></div>
 										<div class="best-img-all">
@@ -457,23 +318,9 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b4.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b5.png"></div>
 										<div class="best-img-all">
 											<p class="title">TEA TIME IN TAIWAN</p>
 											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
@@ -497,14 +344,15 @@
 		</div>
 	</section>
 	<section class="bg-red" id="red">
-		<div class="img5"><img src="img/ribbon2.png"></div>
+		<div class="img5"><img src="img/z1.png"></div>
 		<div class="img6"><img src="img/ribbon1.png"></div>
-		<div class="img7"><img src="img/left-deco2.png"></div>
-		<div class="img8"><img src="img/right-deco2.png"></div>
+		<div class="img00"><img src="img/z2.png"></div>
+		<div class="img7"><img src="img/z3.png"></div>
+		<div class="img8"><img src="img/z4.png"></div>
 		<div class="container-fluid">
 			<div class="best-buy-block">
 				<div class="best-buy-item">
-					<div class="best-text"><p>Anniversary Highlights</p><img src="img/s.png"></div>
+					<div class="best-text"><p>27 Best Buys</p><img src="img/l.png"></div>
 					<div class="best-filter">
 						<ul class="nav nav-tabs">
 					        <li class="active"><a data-toggle="tab" href="#view1" class="blue-border">View Online Catalogue</a></li>
@@ -516,7 +364,7 @@
         			<div id="view1" class="tab-pane fade in active">
 						<div class="best-img">
 							<div class="row">
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b1.png"></div>
 										<div class="best-img-all">
@@ -530,7 +378,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b2.png"></div>
 										<div class="best-img-all">
@@ -544,7 +392,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b3.png"></div>
 										<div class="best-img-all">
@@ -558,7 +406,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b4.png"></div>
 										<div class="best-img-all">
@@ -572,7 +420,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b5.png"></div>
 										<div class="best-img-all">
@@ -586,7 +434,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b6.png"></div>
 										<div class="best-img-all">
@@ -600,7 +448,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b7.png"></div>
 										<div class="best-img-all">
@@ -614,119 +462,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b8.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b9.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b10.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b11.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b12.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b5.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b6.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b7.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b8.png"></div>
 										<div class="best-img-all">
@@ -746,7 +482,7 @@
 					<div id="all1" class="tab-pane fade">
 						<div class="best-img">
 							<div class="row">
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b1.png"></div>
 										<div class="best-img-all">
@@ -760,7 +496,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b2.png"></div>
 										<div class="best-img-all">
@@ -774,7 +510,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b3.png"></div>
 										<div class="best-img-all">
@@ -788,23 +524,9 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b4.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b5.png"></div>
 										<div class="best-img-all">
 											<p class="title">TEA TIME IN TAIWAN</p>
 											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
@@ -831,12 +553,12 @@
 
 
 	<section class="bg-yellow" id="yellow">
-		<div class="img9"><img src="img/ribbon5.png"></div>
-		<div class="img10"><img src="img/ribbon12.png"></div>
-		<div class="img11"><img src="img/ribbon9.png"></div>
-		<div class="img12"><img src="img/ribbon3.png"></div>
-		<div class="img13"><img src="img/ribbon8.png"></div>
-		<div class="img14"><img src="img/ribbon7.png"></div>
+		<div class="img9"><img src="img/p1.png"></div>
+		<div class="img10"><img src="img/p2.png"></div>
+		<div class="img11"><img src="img/p3.png"></div>
+		<div class="img12"><img src="img/p4.png"></div>
+		<div class="img13"><img src="img/c2.png"></div>
+		<div class="img14"><img src="img/c1.png"></div>
 		<div class="container-fluid">
 			<div class="best-buy-block">
 				<div class="best-buy-item">
@@ -852,7 +574,7 @@
         			<div id="view2" class="tab-pane fade in active">
 						<div class="best-img">
 							<div class="row">
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b1.png"></div>
 										<div class="best-img-all">
@@ -866,7 +588,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s2.png"></div>
 										<div class="best-img-all">
@@ -880,7 +602,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s3.png"></div>
 										<div class="best-img-all">
@@ -894,7 +616,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s4.png"></div>
 										<div class="best-img-all">
@@ -908,7 +630,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s5.png"></div>
 										<div class="best-img-all">
@@ -922,7 +644,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s6.png"></div>
 										<div class="best-img-all">
@@ -936,7 +658,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s7.png"></div>
 										<div class="best-img-all">
@@ -950,119 +672,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b1.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s8.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s11.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s9.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s10.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s12.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s13.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s14.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b1.png"></div>
 										<div class="best-img-all">
@@ -1082,7 +692,7 @@
 					<div id="all2" class="tab-pane fade">
 						<div class="best-img">
 							<div class="row">
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b1.png"></div>
 										<div class="best-img-all">
@@ -1096,7 +706,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b2.png"></div>
 										<div class="best-img-all">
@@ -1110,7 +720,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b3.png"></div>
 										<div class="best-img-all">
@@ -1124,23 +734,9 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b4.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b5.png"></div>
 										<div class="best-img-all">
 											<p class="title">TEA TIME IN TAIWAN</p>
 											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
@@ -1164,14 +760,16 @@
 		</div>
 	</section>
 	<section class="bg-pink" id="pink">
-		<div class="img15"><img src="img/ribbon10.png"></div>
-		<div class="img16"><img src="img/ribbon9.png"></div>
-		<div class="img17"><img src="img/ribbon11.png"></div>
-		<div class="img18"><img src="img/ribbon12.png"></div>
+		<div class="img15"><img src="img/c3.png"></div>
+		<div class="img16"><img src="img/c4.png"></div>
+		<div class="img17"><img src="img/c5.png"></div>
+		<div class="img18"><img src="img/c6.png"></div>
+		<div class="img19"><img src="img/c7.png"></div>
+		<div class="img20"><img src="img/c8.png"></div>
 		<div class="container-fluid">
 			<div class="best-buy-block">
 				<div class="best-buy-item">
-					<div class="best-text"><p>Household & Interior Anniversary Deals</p><img src="img/s.png"></div>
+					<div class="best-text"><p>Anniversary Highlights</p><img src="img/s.png"></div>
 					<div class="best-filter">
 						<ul class="nav nav-tabs">
 					        <li class="active"><a data-toggle="tab" href="#view3" class="blue-border">View Online Catalogue</a></li>
@@ -1183,7 +781,7 @@
         			<div id="view3" class="tab-pane fade in active">
 						<div class="best-img">
 							<div class="row">
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b1.png"></div>
 										<div class="best-img-all">
@@ -1197,7 +795,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s2.png"></div>
 										<div class="best-img-all">
@@ -1211,7 +809,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s3.png"></div>
 										<div class="best-img-all">
@@ -1225,7 +823,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s4.png"></div>
 										<div class="best-img-all">
@@ -1239,7 +837,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s5.png"></div>
 										<div class="best-img-all">
@@ -1253,7 +851,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s6.png"></div>
 										<div class="best-img-all">
@@ -1267,7 +865,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/s7.png"></div>
 										<div class="best-img-all">
@@ -1281,119 +879,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b1.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s8.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s11.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s9.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s10.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s12.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s13.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/s14.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b1.png"></div>
 										<div class="best-img-all">
@@ -1413,7 +899,7 @@
 					<div id="all3" class="tab-pane fade">
 						<div class="best-img">
 							<div class="row">
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b1.png"></div>
 										<div class="best-img-all">
@@ -1427,7 +913,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b2.png"></div>
 										<div class="best-img-all">
@@ -1441,7 +927,7 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b3.png"></div>
 										<div class="best-img-all">
@@ -1455,23 +941,9 @@
 			                            </div>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<div class="best-img-box">
 										<div class="best-img-back"><img src="img/b4.png"></div>
-										<div class="best-img-all">
-											<p class="title">TEA TIME IN TAIWAN</p>
-											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
-											<p class="price">$39.00</p>
-											<div class="product-button">
-			                                    <a href="">view details</a>
-			                                    <button class="btn-add">add to cart</button>
-			                                </div>
-			                            </div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div class="best-img-box">
-										<div class="best-img-back"><img src="img/b5.png"></div>
 										<div class="best-img-all">
 											<p class="title">TEA TIME IN TAIWAN</p>
 											<h5 class="weight">Alishan Jingsyuan - 100g</h5>
@@ -1494,7 +966,6 @@
 			</div>
 		</div>
 	</section>
-
 	<footer>
         <img src="img/logo.png" alt="">
         <p>Copy rights &copy; 2020 <a href="https://www.takashimaya.com.sg/">Takashimaya Singapore.</a>All Right Reserved. | Privacy Policy</p>
@@ -1505,38 +976,22 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/slick.js"></script>
 <script type="text/javascript">
-$("#navbarMenu ul .submenu > a").append('<span class="submenu-button"></span>');
-$(".toggleMenu").click(function(e){
-    $("nav > ul").slideToggle();
-    e.preventDefault();
+	$(document).ready(function(){
+    	$("#mobile-bar").click(function(){
+        $("#mobile-menu").toggle();
+    });
 });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
 
-$(".submenu ul li").click(function(e){
-    e.stopPropagation();
-});
+        const closeMenu = $("#close-menu")
+        const mobileMenu = $("#mobile-menu")
 
-//CLICK ON SUBMENU LINK
-$(".submenu").click(function(e){
-    //CLOSE OPEN SUBMENU
-    if($(this).hasClass("active")){
-        $("#navbarMenu ul li").removeClass('active');
-        $('#navbarMenu ul li ul').slideUp();
-    }else{
-        $("#navbarMenu ul li").removeClass('active');
-        $("#navbarMenu ul li ul").slideUp();
-        $(this).addClass("active");
-        $(this).find('ul').stop().slideToggle();
-        e.stopPropagation();
-    }
-    $("#navbarMenu ul li").removeClass('openSub');
-    $(this).addClass('openSub');
-
-});
-
-$("body, html").click(function(){
-    $("#navbarMenu ul li").removeClass('active openSub');
-    $('#navbarMenu ul li ul').slideUp();
-});
+        closeMenu.click(function () {
+            mobileMenu.hide();
+        })
+    })
 </script>
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -1576,4 +1031,5 @@ $("body, html").click(function(){
     
 })
 </script>
+</html>
 </html>
